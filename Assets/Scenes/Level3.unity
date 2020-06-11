@@ -192,6 +192,11 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8201622615619500889, guid: 966a9932b95595c48b570d3e7666a50f,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8201622615619500891, guid: 966a9932b95595c48b570d3e7666a50f,
         type: 3}
       propertyPath: m_Name
@@ -489,7 +494,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17292
+  m_Name: pb_Mesh20122
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -952,6 +957,11 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8201622615619500889, guid: 966a9932b95595c48b570d3e7666a50f,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8201622615619500891, guid: 966a9932b95595c48b570d3e7666a50f,
         type: 3}
       propertyPath: m_Name
@@ -1161,7 +1171,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17210
+  m_Name: pb_Mesh20040
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1756,7 +1766,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh126152
+  m_Name: pb_Mesh20148
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2339,7 +2349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4036406035427534, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.035
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 4036406035427534, guid: 925bc3fd925fd0c4c80d7e83b67ba239, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2404,7 +2414,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867389464}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fbc95850a04e27342aa7261e830fcc5c, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2879,7 +2889,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407264012}
   m_LocalRotation: {x: -0, y: -0.7077271, z: -0, w: 0.706486}
-  m_LocalPosition: {x: -0.2857, y: 0.805, z: -0.0002}
+  m_LocalPosition: {x: -0.2857, y: 0.792, z: -0.0002}
   m_LocalScale: {x: 1, y: 1, z: 1.2779619}
   m_Children: []
   m_Father: {fileID: 2126775634}
@@ -2927,7 +2937,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1407264017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3504,7 +3514,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh126110
+  m_Name: pb_Mesh20106
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3733,7 +3743,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-115742
+  m_Name: pb_Mesh20012
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3896,7 +3906,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17356
+  m_Name: pb_Mesh20186
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4741,6 +4751,11 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8201622615619500889, guid: 966a9932b95595c48b570d3e7666a50f,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8201622615619500891, guid: 966a9932b95595c48b570d3e7666a50f,
         type: 3}
       propertyPath: m_Name
@@ -5061,7 +5076,7 @@ PrefabInstance:
     - target: {fileID: 8201622615619500868, guid: 966a9932b95595c48b570d3e7666a50f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.707
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8201622615619500868, guid: 966a9932b95595c48b570d3e7666a50f,
         type: 3}
@@ -5117,6 +5132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201622615619500889, guid: 966a9932b95595c48b570d3e7666a50f,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8201622615619500891, guid: 966a9932b95595c48b570d3e7666a50f,
         type: 3}
